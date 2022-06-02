@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 02-Jun-2022 às 18:53
+-- Tempo de geração: 02-Jun-2022 às 19:28
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.4
 
@@ -68,7 +68,6 @@ CREATE TABLE `posts` (
 INSERT INTO `posts` (`post_id`, `post_content`, `post_date`, `post_topic`, `post_by`, `post_votes`) VALUES
 (130, 'I need romance, comedy and slice of life animes.', '2022-05-31 02:04:20', 2, 1, 2),
 (131, 'Boku no piko', '2022-05-31 19:42:20', 2, 3, 1),
-(132, 'How to get the magalo-mania achivement in payday 2?', '2022-05-31 19:46:57', 3, 3, 1);
 (136, 'Helpppppp', '2022-06-02 18:03:51', 5, 1, 0);
 
 -- --------------------------------------------------------
@@ -154,7 +153,6 @@ CREATE TABLE `topics` (
 
 INSERT INTO `topics` (`topic_id`, `topic_subject`, `topic_date`, `topic_cat`, `topic_by`) VALUES
 (2, 'Anime Suggestions', '2022-05-31 02:04:20', 1, 1),
-(3, 'Megalo-Mania Payday 2 achivement', '2022-05-31 19:46:57', 2, 3);
 (5, 'I need more animes right now', '2022-06-02 18:03:51', 1, 1);
 
 -- --------------------------------------------------------
@@ -184,7 +182,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`idUsers`, `userLevel`, `f_name`, `l_name`, `uidUsers`, `emailUsers`, `pwdUsers`, `gender`, `date_created`, `headline`, `bio`, `userImg`) VALUES
-(1, 1, 'Comi', 'Você', 'kikinho11', 'fca.10.fa@gmail.com', '$2y$10$zU1PAVI7DMBXTA1HoGWcU.HLCVp.IHipahkuswoH8ff1xzpNGtuoy', 'm', '2022-05-31', 'de 4', 'levando', '62956c80264aa0.21026778.jpeg'),
+(1, 1, 'Me', 'Here', 'kikinho11', 'fca.10.fa@gmail.com', '$2y$10$zU1PAVI7DMBXTA1HoGWcU.HLCVp.IHipahkuswoH8ff1xzpNGtuoy', 'm', '2022-05-31', 'Melhor programador do que o Anderlike', 'levando', '62956c80264aa0.21026778.jpeg'),
 (2, 0, '', '', 'teste1', 'teste1@gmail.com', '$2y$10$JIkVt6C0zCj1fxYnUXnT0OYGIl0ty3Xb3ZHrIho2ilnvmByn8Qs0y', 'm', '2022-05-31', '', '', 'default.png'),
 (3, 0, 'Andre', 'Pio', 'Piozinho', 'andre.aleixo.pio@gmail.com', '$2y$10$SaH/R4gGIrhpn98wcneBfe5BwNeMwJUC6nC3uNXZ1YSQhEfD.1Evu', 'f', '2022-05-31', 'sim, o kikinho11 é melhor do que eu', 'e gay', '62966171727ee3.91636912.png');
 
@@ -242,7 +240,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT de tabela `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `post_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
+  MODIFY `post_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=138;
 
 --
 -- AUTO_INCREMENT de tabela `postvotes`
@@ -254,7 +252,7 @@ ALTER TABLE `postvotes`
 -- AUTO_INCREMENT de tabela `topics`
 --
 ALTER TABLE `topics`
-  MODIFY `topic_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `topic_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de tabela `users`
