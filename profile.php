@@ -63,7 +63,6 @@
               
               <h2><?php echo ucwords($user['uidUsers']); ?></h2>
               <h6><?php echo ucwords($user['f_name']) . " " . ucwords($user['l_name']); ?></h6>
-              <h6><?php echo '<small class="text-muted">'.$user['emailUsers'].'</small>'; ?></h6>
               <hr>
               
               <?php 

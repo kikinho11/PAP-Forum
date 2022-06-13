@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="my-3 mx-5 p-3 bg-white rounded shadow-sm">
-                  <h5 class="border-bottom border-gray pb-2 mb-0">Find People on KLiK</h5>
+                  <h5 class="border-bottom border-gray pb-2 mb-0">Find People on Cyber Forum</h5>
 
 
                   <?php
@@ -62,7 +62,6 @@
                                       <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray ">
                                         <strong class="d-block text-gray-dark">'.ucwords($row['uidUsers']).'</strong></a>
                                             <strong class="text-dark">'.ucwords($row['f_name'].' '.$row['l_name']).'</strong><br>
-                                            '.$row['emailUsers'].'
                                       </p>
                                   </div>';
                           }

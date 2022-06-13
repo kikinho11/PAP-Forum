@@ -3,7 +3,7 @@
 
     session_start();
     include_once 'includes/dbh.inc.php';
-    define('TITLE',"Dashboard| Cyber Forums");
+    define('TITLE',"Dashboard | Cyber Forums");
     
     function strip_bad_chars( $input ){
         $output = preg_replace( "/[^a-zA-Z0-9_-]/", "", $input);

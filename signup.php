@@ -17,7 +17,8 @@
     				<div class="col-sm-6 offset-sm-1">  
              			<div class="signup-left position-fixed text-center"> 
                 			<img src="img/neko-resize.png">
-                			<br><br><br>
+                      <h1 class="text-white">Cyber Forum</h1>
+                			<br>
                             <?php
                             
                                 if(isset($_GET['error']))
