@@ -33,7 +33,7 @@
       </div>
 
       <div class="my-3 p-3 bg-white rounded shadow-sm">
-        <h5 class="border-bottom border-gray pb-2 mb-0">Top Categories</h5>
+        <h5 class="border-bottom border-gray pb-2 mb-0">Categories</h5>
         
         
         <?php

@@ -130,6 +130,22 @@
                             <label for="pwd-repeat" class="text-white">Confirmation</label>
                             <input type="password" class="form-control" id="pwd-repeat" name="pwd-repeat" placeholder="Repeat Password">
                           </div>
+
+                          <div class="form-group col-md-12 align-self-center">
+                                <label class="text-white">Gender</label><br>
+                                <div class="form-check form-check-inline">
+                                  <input id="male" class="form-check-input" name="gender" value="m" type="radio" checked>
+                                  <label for="male" class="form-check-label text-white">M</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input id="female" class="form-check-input" name="gender" value="f" type="radio">
+                                  <label for="female" class="form-check-label text-white">F</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input id="none" class="form-check-input" name="gender" value="n" type="radio">
+                                  <label for="none" class="form-check-label text-white">None</label>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="form-row border-top my-3">
@@ -151,15 +167,7 @@
                         </div>
 
                         <div class="form-row">
-                            <div class="form-group col-md-6 align-self-center">
-                                <label  class="text-white">Gender</label><br>
-                                <input id="toggle-on" class="toggle toggle-left" name="gender" value="m" type="radio" checked>
-                                <label for="toggle-on" class="btn-r">M</label>
-                                <input id="toggle-off" class="toggle toggle-right" name="gender" value="f" type="radio">
-                                <label for="toggle-off" class="btn-r">F</label>
-                            </div>
-
-                            <div class="form-group col-md-6 align-self-center">
+                            <div class="form-group col-md-12 align-self-center">
                                 <img id="blah" class="rounded" src="#" alt="your image" class="img-responsive rounded"
                                      style="height: 200px; width: 190px; object-fit: cover;">
                                 <br><br><label class="btn btn-primary ">

@@ -125,7 +125,7 @@
                                             <div class="card-block p-2">
                                               <p class="card-title">'.ucwords($row['topic_subject']).'</p>
                                              <p class="card-text"><small class="text-muted">'
-                                             .date("F jS, Y", strtotime($row['topic_date'])).'</small></p>
+                                             .date("jS F, Y", strtotime($row['topic_date'])).'</small></p>
                                             </div>
                                             </a>
                                           </div>

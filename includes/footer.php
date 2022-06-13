@@ -10,7 +10,8 @@
                     <h5>Get started</h5>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="forum.php">The Cyber Forum</a></li>
+                        <li><a href="forum.php">Cyber Forums</a></li>
+                        <li><a href="users-view.php">Members List</a></li>
                     </ul>
                 </div>
             </div>

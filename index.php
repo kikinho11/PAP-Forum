@@ -46,7 +46,7 @@
 
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
-                              <a class="nav-link active" id="forum-tab" data-toggle="tab" href="#forum" role="tab" 
+                              <a class="nav-link active" id="forum-tab" data-toggle="tab" role="tab" 
                                  aria-controls="forum" aria-selected="true">Recent Forums</a>
                             </li>
                         </ul>

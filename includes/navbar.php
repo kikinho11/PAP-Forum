@@ -12,11 +12,6 @@
             <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto mr-1">
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="index.php">
-                        <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item px-3">
                     <a class="nav-link" href="users-view.php">
                         <i class="fa fa-users fa-2x" aria-hidden="true"></i>
                     </a>

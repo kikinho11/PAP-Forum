@@ -70,17 +70,29 @@
                   
                     <div class="form-group">
                                 <label >Gender</label><br>
-                                <input id="toggle-on" class="toggle toggle-left" name="gender" value="m" type="radio" 
-                                    <?php 
-                                        if ($_SESSION['gender'] == 'm'){ ?> 
-                                            checked="checked"
-                                    <?php } ?>>
-                                <label for="toggle-on" class="btn-r">M</label>
-                                <input id="toggle-off" class="toggle toggle-right" name="gender" value="f" type="radio"
-                                    <?php if ($_SESSION['gender'] == 'f'){ ?> 
-                                            checked="checked"
-                                    <?php } ?>>
-                                <label for="toggle-off" class="btn-r">F</label>
+                                <div class="form-check form-check-inline">
+                                  <input id="male" class="form-check-input" name="gender" value="m" type="radio" 
+                                      <?php 
+                                          if ($_SESSION['gender'] == 'm'){ ?> 
+                                              checked="checked"
+                                      <?php } ?>>
+                                  <label for="male" class="form-check-label">M</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input id="female" class="form-check-input" name="gender" value="f" type="radio"
+                                      <?php if ($_SESSION['gender'] == 'f'){ ?> 
+                                              checked="checked"
+                                      <?php } ?>>
+                                  <label for="female" class="form-check-label">F</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input id="none" class="form-check-input" name="gender" value="n" type="radio" 
+                                      <?php 
+                                          if ($_SESSION['gender'] == 'n'){ ?> 
+                                              checked="checked"
+                                      <?php } ?>>
+                                  <label for="none" class="form-check-label">None</label>
+                                </div>
                     </div>
                   
                   <hr>
