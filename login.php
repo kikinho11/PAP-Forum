@@ -42,14 +42,15 @@
                             else if($_GET['error'] == 'nouser')
                             {
                                 echo '<div class="alert alert-danger" role="alert">
-                                        <strong>Error: </strong>Username does not exist
+                                        <strong>Error: </strong>Wrong Password or Username
+                                        <a class="alert-link">Forgot Password? (Not working for now)</a>
                                       </div>';
                             }
                             else if ($_GET['error'] == 'wrongpwd')
                             {;
                                 echo '<div class="alert alert-danger" role="alert">
-                                        <strong>Error: </strong>Wrong password - 
-                                         <a href="" class="alert-link">Forgot Password? (Not working for now)</a>
+                                        <strong>Error: </strong>Wrong Password or Username 
+                                         <a class="alert-link">Forgot Password? (Not working for now)</a>
                                       </div>';
                             }
                             else if ($_GET['error'] == 'sqlerror')

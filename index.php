@@ -69,7 +69,7 @@
                                                 where topics.topic_by = users.idUsers
                                                 and topics.topic_cat = categories.cat_id
                                                 order by topic_id desc, upvotes asc 
-                                                LIMIT 6";
+                                                LIMIT 4";
                                         $stmt = mysqli_stmt_init($conn);    
 
                                         if (!mysqli_stmt_prepare($stmt, $sql))
